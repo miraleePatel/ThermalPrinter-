@@ -1,8 +1,8 @@
-# Thermal printer flutter Project
+# Flutter Thermal Printer Demo
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+The Flutter Thermal Printer Demo is a simple yet powerful application designed to streamline the process of printing bills and receipts using Bluetooth-enabled thermal printers.
 
 ![WhatsApp Image 2024-02-14 at 11 45 12 AM](https://github.com/miraleePatel/ThermalPrinter-/assets/147297946/d61d852b-ac83-414c-b191-5bff1babd035)
 
