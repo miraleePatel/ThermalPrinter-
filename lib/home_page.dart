@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'home_page1.dart';
-import 'home_page2.dart';
+
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -30,24 +30,10 @@ class HomePage extends StatelessWidget {
                 foregroundColor: Colors.white,
                 backgroundColor: Colors.blueGrey,
               ),
-              child: const Text('Home Screen 1'),
+              child: const Text('Print Screen'),
             ),
             const SizedBox(height: 30),
-            TextButton(
-              onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => const HomePage2(),
-                  ),
-                );
-              },
-              style: TextButton.styleFrom(
-                foregroundColor: Colors.white,
-                backgroundColor: Colors.blueGrey,
-              ),
-              child: const Text('Home Screen 2'),
-            ),
+
           ],
         ),
       ),
